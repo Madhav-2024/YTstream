@@ -1,0 +1,6 @@
+{
+  "name": "YouTube Video Downloader",
+  "description": "An elegant, fast tool to download YouTube videos and audio by pasting a URL and selecting preferred quality and format options.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

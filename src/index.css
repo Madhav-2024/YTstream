@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer utilities {
+  .immersive-bg {
+    background: radial-gradient(circle at 50% -20%, #1a2a44 0%, #030407 70%), #030407;
+  }
+  .glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .neon-border {
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.2);
+    border-color: rgba(0, 242, 255, 0.4);
+  }
+  .glow-text {
+    text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+  }
+  .btn-gradient {
+    background: linear-gradient(135deg, #00f2ff 0%, #0077ff 100%);
+    box-shadow: 0 4px 20px rgba(0, 242, 255, 0.3);
+  }
+}
+
